@@ -27,7 +27,7 @@ def home():
 
 @app.get("/download")
 def download_extension():
-    path = "/home/bragadeesh/Desktop/final-year-project/env/source/phishing-backend/extension.zip"
+    path = "/home/bragadeesh/Desktop/phising/Phishing-be/extension.zip"
     return FileResponse(path = path , filename="extension.zip", media_type="application/zip")
 
 if __name__ == "__main__":
